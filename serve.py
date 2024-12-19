@@ -136,4 +136,4 @@ if __name__ == '__main__':
     print("App run!")
     # Load model
     model = utils._load_model()
-    app.run(debug=False,host="0.0.0.0")
+    app.run(host='0.0.0.0', port=8080)
